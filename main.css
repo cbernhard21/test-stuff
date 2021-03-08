@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  color: rgb(240, 251, 255);
+}
+
+header {
+  color: green;
+}
+
+.contact {
+  background-color: rgb(117, 117, 117);
+}
+
+.contact-container {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(10px, 1fr));
+  height: 100%;
+}
+
+h2 {
+  grid-column: 1/-1;
+  text-align: center;
+}
+
+#map {
+  border: 3px solid black;
+  border-radius: 10px;
+  height: 600px;
+}
+
+.contact-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  background-color: tomato;
+  text-align: center;
+}
